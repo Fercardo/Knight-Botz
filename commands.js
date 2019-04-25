@@ -47,18 +47,9 @@ let commands = {
 	}, 
   
   
-  gamble: function (target, room, user) {
-    this.say("<<casino> )");  this.say("/redirect " + user.name + ", Casino");
-  },
   
-  //summon games commands
   
-  /*host: function(target, room, user) {
- if(room.game.name == "Summon")
-   var host = user.name;
-    this.say(user.name + " is host");
-             },
-  */
+
   
   gift: function (target, room, user) {
 		if (!user.isDeveloper() && !user.hasRank(room, '+') && (!Games.host || Games.host.id !== user.id)) return;
@@ -71,86 +62,6 @@ let commands = {
 		if (!user.isDeveloper() && !user.hasRank(room, '+') && (!Games.host || Games.host.id !== user.id)) return;
 		room.say(Tools.sample(jokes));
 	},      
-  
-  
-  host: function (target, room, user) {
-		if (!user.hasRank(room, '%')) return;
-		let realuser = Users.get(target);
-		if (!realuser) return;
-		if (Games.host) {
-			room.say(realuser.name + " was added to the hostqueue!");
-			console.log(Games.hosts);
-			Games.hosts.push(realuser.name);
-			return;
-		}
-		Games.host = realuser;
-		room.say(+ realuser.name + " is hosting! Do ``&join`` to join!");
-	},
-  
-  
-  //random commands own
-  jt: function (target, room, user) {
-    if (!(room instanceof Users.User) && !user.hasRank(room, '+')) return;
-		this.say("/tour join");
-  },
-  say: function (target, room, user) {
-    if (!user.isDeveloper()) return;
-    this.say(target);
-  },
-  rm: function (target, room, user) {
-    var randuser = ["aflyingphantom","order of Phoenix","Aflyingphantom","beekay1976","call of summer","no1explorer","distrib"];
-    var move = Math.floor((Math.random() * 4) + 1); // choose move randomly
-    this.say(randuser[move]);
-  },// call attack from array
-  
-  j: 'judge',
-  judge:  function (target, room, user) {
-    var judgement = [" is so cute"," is the worst!!!"," is um eh not bad "," is the best"," is ok"];
-    var rand = Math.floor((Math.random() * 4) + 1); // choose move randomly
-    if (!["!", "/"].includes(target.charAt(0))) 
-    this.say(target.split('/') + judgement[rand]);
-  },// call attack from array
-
-	// General commands
-  //tour commands
-    ssbtour: function (target, room, user) {
-    if (!(room instanceof Users.User) && !user.hasRank(room, '+')) return;
-		this.say("/tour create ssb,elimination");
-      this.say("/tour autodq 2");
-       this.say("/tour autostart 2");    
-  },
-  
-   rbtour: function (target, room, user) {
-    if (!(room instanceof Users.User) && !user.hasRank(room, '+')) return;
-		this.say("/tour create gen7randombattle,elimination");
-      this.say("/tour autodq 2");
-       this.say("/tour autostart 2");    
-  },
-  
-  
-  
-  ping: function (target, room, user) {
-   //if(!(room instanceof Users.User) && !user.hasRank(room, '+')) return;
-    var rate = Math.floor((Math.random() * 10) + 1);
-    if(rate == 1){
-      this.say("You win");
-    } 
-    
-    else if(rate == 4){
-      this.say("You lose");
-      this.say("/mute " + user.id + ", fuck u");
-    }
-    else{
-      this.say("Pong!");
-      
-  }},
-  
-  intro: function (target, room, user){
-    if (!user.isDeveloper() || !(room instanceof Users.User) && !user.hasRank(room, '+')) return;
-    this.say("!htmlbox <center><div style='background:black;color:white;'><h1 style='color:blue;'> Truth Untold </h1> <h4 style='color:white;'> <I> Hello! I'm Master P9's Cute Bot</I></h4><b> My Commands : </b> <br> &intro - Introduction <br> &rm - chooses random user <br> &ping - try your luck  </div> </center>");
-  this.say("!Profile");
-    this.say("[[BTS-Truth Untold]]");
-  },
   
   c: 'roomsay',
   roomsay: function (target, room, user) {
@@ -168,8 +79,6 @@ let commands = {
   
     this.say("/join " + target);
   },
-  
-  //copied commands
   
   
   pick: function (target, room, user) {
@@ -256,8 +165,7 @@ let commands = {
   
 	about: function (target, room, user) {
 		if (!(room instanceof Users.User) && !user.hasRank(room, '+')) return;
-		this.say(Config.username + "  https://github.com");
-    this.say("/pm pokem9n, " + user.name);
+		this.say(Config.username + "  https://github.com/Zerapium/Phantom-Ozonix");
 	},
 	help: function (target, room, user) {
 		if (!(room instanceof Users.User) && !user.hasRank(room, '+')) return;
@@ -290,10 +198,6 @@ let commands = {
 	},
 
   
-  
-  gameslist: function(target, room, user) {
-    this.say("**Some available and buggy games** : MMM, CSS, Trivia, Hangman, Magnezone, Orders, CMT, Anagrams, PPP, Count, Summon");
-  },
   
   
 	// Game commands
@@ -429,12 +333,7 @@ let commands = {
 	},
   
   
-   keeproomalive: async function(target, room, user) {
-        while (true) {
-            this.say('bad users are bad');
-            await sleep(600000);
-        }
-   },
+
   
 
 	// Tournament commands
