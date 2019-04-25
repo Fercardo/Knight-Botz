@@ -17,7 +17,7 @@ Cassius requires [Node.js][3] version 6.0.0 or later and a command line (e.g. `C
   [3]: https://nodejs.org/
   [4]: https://desktop.github.com/
   [5]: https://git-scm.com/
-
+  [9]: https://github.com/PowerHitter0418
 2. Navigate to the root directory
 
   The remaining steps will take place in the root directory of your Cassius files. Navigate there with the command:
@@ -43,7 +43,7 @@ From this point on, you can start the bot by running the following command:
   `node app.js`
 
 ## Credits
-  * Pokem9n ([@Zerapium][5]) - Lead Developer
+  * Pokem9n ([@Zerapium][9]) - Lead Developer
   * Quinton Lee ([@sirDonovan][6]) - Lead developer
   * [Pokemon Showdown][1] - In-game data files, Tools module, and various helper functions
   * [Contributors][7]
