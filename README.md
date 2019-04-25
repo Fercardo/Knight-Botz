@@ -53,6 +53,6 @@ From this point on, you can start the bot by running the following command:
 
 ## License
 
-  Cassius is distributed under the terms of the [MIT License][8].
+  Truth Untold is distributed under the terms of the [MIT License][8].
 
   [8]: https://github.com/sirDonovan/Cassius/blob/master/LICENSE
