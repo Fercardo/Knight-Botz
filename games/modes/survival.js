@@ -1,6 +1,6 @@
 /**
  * Survival
- * Phantom Ozonix - https://github.com/PowerHitter0418/Phantom-Ozonix
+ * Cassius - https://github.com/sirDonovan/Cassius
  *
  * This file contains code for the game mode Survival
  *

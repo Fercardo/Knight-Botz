@@ -1,6 +1,6 @@
 /**
  * Hangman game
- * Phantom Ozonix - https://github.com/PowerHitter0418/Phantom-Ozonix
+ * Cassius - https://github.com/sirDonovan/Cassius
  *
  * @license MIT license
  */

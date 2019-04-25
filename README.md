@@ -1,19 +1,23 @@
-# Phantom-Ozonix 
-
-[![Build Status](https://travis-ci.org/PowerHitter0418/Phantom-Ozonix.svg)](https://travis-ci.org/PowerHitter0418/Phantom-Ozonix)
+# Cassius
+[![Build Status](https://travis-ci.org/sirDonovan/Cassius.svg)](https://travis-ci.org/sirDonovan/Cassius)
 
 A bot for [Pokemon Showdown][1].
 
   [1]: https://github.com/Zarel/Pokemon-Showdown
 
-## Installation
-Phantom Ozonix requires [Node.js][3] version 6.0.0 or later and a command line (e.g. `Command Prompt` on Windows or `Terminal` on Mac OS/Linux) to run. Once you have compatible software, complete installation by following these steps:
+## Inactivity notice - November 5, 2018
+Cassius has been succeeded by [Lanette][2] and is no longer actively developed.
 
-1. Obtain a copy of Phantom Ozonix
+  [2]: https://github.com/sirDonovan/Lanette
+
+## Installation
+Cassius requires [Node.js][3] version 6.0.0 or later and a command line (e.g. `Command Prompt` on Windows or `Terminal` on Mac OS/Linux) to run. Once you have compatible software, complete installation by following these steps:
+
+1. Obtain a copy of Cassius
 
   You can do this through the [GitHub client][4] by clicking the "Clone or download" button on the home page of the repository and then clicking "Open in Desktop". You can also use the following [Git][5] command:
   
-  `git clone https://github.com/PowerHitter0418/Phantom-Ozonix.git`
+  `git clone https://github.com/sirDonovan/Cassius.git`
 
   [3]: https://nodejs.org/
   [4]: https://desktop.github.com/
@@ -21,11 +25,11 @@ Phantom Ozonix requires [Node.js][3] version 6.0.0 or later and a command line (
 
 2. Navigate to the root directory
 
-  The remaining steps will take place in the root directory of your Phantom Ozonix files. Navigate there with the command:
+  The remaining steps will take place in the root directory of your Cassius files. Navigate there with the command:
 
   `cd DIRECTORY`
   
-  Replace `DIRECTORY` with the filepath to your directory (e.g. `C:\Users\PowerHitter0418\Documents\GitHub\Phantom-Ozonix`).
+  Replace `DIRECTORY` with the filepath to your directory (e.g. `C:\Users\sirDonovan\Documents\GitHub\Cassius`).
 
 3. Install dependencies
 
@@ -45,17 +49,15 @@ From this point on, you can start the bot by running the following command:
 
 ## Credits
 
-  * A Flying Phantom ([@PowerHitter0418][8]) - Repository Owner
-  * Quinton Lee ([@sirDonovan][6]) - Base repository
+  * Quinton Lee ([@sirDonovan][6]) - Lead developer
   * [Pokemon Showdown][1] - In-game data files, Tools module, and various helper functions
   * [Contributors][7]
 
   [6]: https://github.com/sirDonovan
-  [7]: https://github.com/PowerHitter0418/Phantom-Ozonix/graphs/contributors
-  [8]: https://github.com/PowerHitter0418
+  [7]: https://github.com/sirDonovan/Cassius/graphs/contributors
 
 ## License
 
-  Phantom Ozonix is distributed under the terms of the [MIT License][9].
+  Cassius is distributed under the terms of the [MIT License][8].
 
-  [9]: https://github.com/PowerHitter0418/Phantom-Ozonix/blob/master/LICENSE
+  [8]: https://github.com/sirDonovan/Cassius/blob/master/LICENSE
