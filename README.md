@@ -17,7 +17,7 @@ Cassius requires [Node.js][3] version 6.0.0 or later and a command line (e.g. `C
   [3]: https://nodejs.org/
   [4]: https://desktop.github.com/
   [5]: https://git-scm.com/
-  [9]: https://github.com/PowerHitter0418
+  [9]: https://github.com/Zerapium
 2. Navigate to the root directory
 
   The remaining steps will take place in the root directory of your Cassius files. Navigate there with the command:
