@@ -1,14 +1,9 @@
-# Cassius
+# Truth Untold
 [![Build Status](https://travis-ci.org/sirDonovan/Cassius.svg)](https://travis-ci.org/sirDonovan/Cassius)
 
 A bot for [Pokemon Showdown][1].
 
   [1]: https://github.com/Zarel/Pokemon-Showdown
-
-## Inactivity notice - November 5, 2018
-Cassius has been succeeded by [Lanette][2] and is no longer actively developed.
-
-  [2]: https://github.com/sirDonovan/Lanette
 
 ## Installation
 Cassius requires [Node.js][3] version 6.0.0 or later and a command line (e.g. `Command Prompt` on Windows or `Terminal` on Mac OS/Linux) to run. Once you have compatible software, complete installation by following these steps:
@@ -48,7 +43,7 @@ From this point on, you can start the bot by running the following command:
   `node app.js`
 
 ## Credits
-
+  * Pokem9n ([@Zerapium][5]) - Lead Developer
   * Quinton Lee ([@sirDonovan][6]) - Lead developer
   * [Pokemon Showdown][1] - In-game data files, Tools module, and various helper functions
   * [Contributors][7]
